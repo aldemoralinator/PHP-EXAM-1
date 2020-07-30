@@ -1,4 +1,14 @@
+### DATABASE SETUP
+
+1. CREATE DATABASE contactsapp; 
 
 
-# TO RUN:
+2. CREATE USER 'aldem'@'localhost' IDENTIFIED BY 'secret';
 
+
+3. GRANT ALL PRIVILEGES ON contactsapp.* TO 'aldem'@'localhost';
+
+
+### To Run:
+
+1. php artisan serve
