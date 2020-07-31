@@ -11,4 +11,6 @@
 
 ### To Run:
 
-1. php artisan serve
+1. php artisan migrate:fresh
+
+2. php artisan serve
